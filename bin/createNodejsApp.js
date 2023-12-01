@@ -41,7 +41,7 @@ if (process.argv.length < 3) {
 const ownPath = process.cwd();
 const folderName = process.argv[2];
 const appPath = path.join(ownPath, folderName);
-const repo = 'https://github.com/HUNZALAMUSHTAQ/obhai.git';
+const repo = 'https://github.com/HUNZALAMUSHTAQ/onlyfunnel.git';
 
 // Check if directory already exists
 try {

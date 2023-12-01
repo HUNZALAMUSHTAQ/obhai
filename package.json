@@ -1,10 +1,10 @@
 {
-  "name": "obhai",
+  "name": "onlyfunnel",
   "version": "1.7.0",
-  "description": "obhai is an AI tool",
+  "description": "onlyfunnel is an AI tool",
   "bin": "bin/createNodejsApp.js",
   "main": "src/index.js",
-  "author": "obhai",
+  "author": "onlyfunnel",
   "license": "MIT",
   "engines": {
     "node": ">=12.0.0"
