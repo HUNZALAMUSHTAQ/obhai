@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .token {
+            background-color: #e8e8e8;
+            padding: 8px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+
+        .footer {
+            margin-top: 20px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Only Funnel AI Access Link</h1>
+        <p>Hey {{name}},</p>
+        <p>Welcome to onlyfunnel.ai - The #1 OFM funnelling tool.</p>
+        <p>To get started, follow the instructions provided in this drive:</p>
+        <p>Your access token, essential for starting the bot, is:</p>
+
+        <div class="token">
+            {{token}}
+        </div>
+
+        <p>If this email happened to be in your spam folder, mark it as "not spam" to ensure you receive important
+            account updates.</p>
+
+        <p>We thrive off your feedback. If there are specific features you’d like to request - we are committed to
+            building them, just for you.</p>
+
+        <p class="footer">Enjoy,<br>Only Funnel Team</p>
+    </div>
+</body>
+
+</html>
