@@ -5,7 +5,15 @@ const ApiError = require('../utils/ApiError');
 const paymentPlans = {
   monthly: {
     plan1: {
+      price: process.env.STRIPE_PLAN_1,
+      quantity: 1,
+    },
+    plan2: {
       price: process.env.STRIPE_PLAN_2,
+      quantity: 1,
+    },
+    plan3: {
+      price: process.env.STRIPE_PLAN_3,
       quantity: 1,
     },
   },
